@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		55B3C1452D3AF6D6006A4C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55B3C12B2D3AF6D3006A4C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55B3C1322D3AF6D4006A4C52;
+			remoteInfo = Grammaringer;
+		};
+		55B3C14F2D3AF6D6006A4C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55B3C12B2D3AF6D3006A4C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55B3C1322D3AF6D4006A4C52;
+			remoteInfo = Grammaringer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55B3C1332D3AF6D4006A4C52 /* Grammaringer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grammaringer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B3C1442D3AF6D6006A4C52 /* GrammaringerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrammaringerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B3C14E2D3AF6D6006A4C52 /* GrammaringerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrammaringerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		55B3C1352D3AF6D4006A4C52 /* Grammaringer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Grammaringer;
+			sourceTree = "<group>";
+		};
+		55B3C1472D3AF6D6006A4C52 /* GrammaringerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GrammaringerTests;
+			sourceTree = "<group>";
+		};
+		55B3C1512D3AF6D6006A4C52 /* GrammaringerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GrammaringerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55B3C1302D3AF6D4006A4C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B3C1412D3AF6D6006A4C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B3C14B2D3AF6D6006A4C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55B3C12A2D3AF6D3006A4C52 = {
+			isa = PBXGroup;
+			children = (
+				55B3C1352D3AF6D4006A4C52 /* Grammaringer */,
+				55B3C1472D3AF6D6006A4C52 /* GrammaringerTests */,
+				55B3C1512D3AF6D6006A4C52 /* GrammaringerUITests */,
+				55B3C1342D3AF6D4006A4C52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55B3C1342D3AF6D4006A4C52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55B3C1332D3AF6D4006A4C52 /* Grammaringer.app */,
+				55B3C1442D3AF6D6006A4C52 /* GrammaringerTests.xctest */,
+				55B3C14E2D3AF6D6006A4C52 /* GrammaringerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55B3C1322D3AF6D4006A4C52 /* Grammaringer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B3C1582D3AF6D6006A4C52 /* Build configuration list for PBXNativeTarget "Grammaringer" */;
+			buildPhases = (
+				55B3C12F2D3AF6D4006A4C52 /* Sources */,
+				55B3C1302D3AF6D4006A4C52 /* Frameworks */,
+				55B3C1312D3AF6D4006A4C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				55B3C1352D3AF6D4006A4C52 /* Grammaringer */,
+			);
+			name = Grammaringer;
+			packageProductDependencies = (
+			);
+			productName = Grammaringer;
+			productReference = 55B3C1332D3AF6D4006A4C52 /* Grammaringer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55B3C1432D3AF6D6006A4C52 /* GrammaringerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B3C15B2D3AF6D6006A4C52 /* Build configuration list for PBXNativeTarget "GrammaringerTests" */;
+			buildPhases = (
+				55B3C1402D3AF6D6006A4C52 /* Sources */,
+				55B3C1412D3AF6D6006A4C52 /* Frameworks */,
+				55B3C1422D3AF6D6006A4C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55B3C1462D3AF6D6006A4C52 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				55B3C1472D3AF6D6006A4C52 /* GrammaringerTests */,
+			);
+			name = GrammaringerTests;
+			packageProductDependencies = (
+			);
+			productName = GrammaringerTests;
+			productReference = 55B3C1442D3AF6D6006A4C52 /* GrammaringerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55B3C14D2D3AF6D6006A4C52 /* GrammaringerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B3C15E2D3AF6D6006A4C52 /* Build configuration list for PBXNativeTarget "GrammaringerUITests" */;
+			buildPhases = (
+				55B3C14A2D3AF6D6006A4C52 /* Sources */,
+				55B3C14B2D3AF6D6006A4C52 /* Frameworks */,
+				55B3C14C2D3AF6D6006A4C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55B3C1502D3AF6D6006A4C52 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				55B3C1512D3AF6D6006A4C52 /* GrammaringerUITests */,
+			);
+			name = GrammaringerUITests;
+			packageProductDependencies = (
+			);
+			productName = GrammaringerUITests;
+			productReference = 55B3C14E2D3AF6D6006A4C52 /* GrammaringerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55B3C12B2D3AF6D3006A4C52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					55B3C1322D3AF6D4006A4C52 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					55B3C1432D3AF6D6006A4C52 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 55B3C1322D3AF6D4006A4C52;
+					};
+					55B3C14D2D3AF6D6006A4C52 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 55B3C1322D3AF6D4006A4C52;
+					};
+				};
+			};
+			buildConfigurationList = 55B3C12E2D3AF6D3006A4C52 /* Build configuration list for PBXProject "Grammaringer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55B3C12A2D3AF6D3006A4C52;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 55B3C1342D3AF6D4006A4C52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55B3C1322D3AF6D4006A4C52 /* Grammaringer */,
+				55B3C1432D3AF6D6006A4C52 /* GrammaringerTests */,
+				55B3C14D2D3AF6D6006A4C52 /* GrammaringerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B3C1312D3AF6D4006A4C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B3C1422D3AF6D6006A4C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B3C14C2D3AF6D6006A4C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55B3C12F2D3AF6D4006A4C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B3C1402D3AF6D6006A4C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B3C14A2D3AF6D6006A4C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55B3C1462D3AF6D6006A4C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55B3C1322D3AF6D4006A4C52 /* Grammaringer */;
+			targetProxy = 55B3C1452D3AF6D6006A4C52 /* PBXContainerItemProxy */;
+		};
+		55B3C1502D3AF6D6006A4C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55B3C1322D3AF6D4006A4C52 /* Grammaringer */;
+			targetProxy = 55B3C14F2D3AF6D6006A4C52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55B3C1562D3AF6D6006A4C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55B3C1572D3AF6D6006A4C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		55B3C1592D3AF6D6006A4C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Grammaringer/Grammaringer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grammaringer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = volonterx.Grammaringer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		55B3C15A2D3AF6D6006A4C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Grammaringer/Grammaringer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grammaringer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = volonterx.Grammaringer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		55B3C15C2D3AF6D6006A4C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = volonterx.GrammaringerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grammaringer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grammaringer";
+			};
+			name = Debug;
+		};
+		55B3C15D2D3AF6D6006A4C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = volonterx.GrammaringerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grammaringer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grammaringer";
+			};
+			name = Release;
+		};
+		55B3C15F2D3AF6D6006A4C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = volonterx.GrammaringerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Grammaringer;
+			};
+			name = Debug;
+		};
+		55B3C1602D3AF6D6006A4C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = volonterx.GrammaringerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Grammaringer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55B3C12E2D3AF6D3006A4C52 /* Build configuration list for PBXProject "Grammaringer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B3C1562D3AF6D6006A4C52 /* Debug */,
+				55B3C1572D3AF6D6006A4C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B3C1582D3AF6D6006A4C52 /* Build configuration list for PBXNativeTarget "Grammaringer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B3C1592D3AF6D6006A4C52 /* Debug */,
+				55B3C15A2D3AF6D6006A4C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B3C15B2D3AF6D6006A4C52 /* Build configuration list for PBXNativeTarget "GrammaringerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B3C15C2D3AF6D6006A4C52 /* Debug */,
+				55B3C15D2D3AF6D6006A4C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B3C15E2D3AF6D6006A4C52 /* Build configuration list for PBXNativeTarget "GrammaringerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B3C15F2D3AF6D6006A4C52 /* Debug */,
+				55B3C1602D3AF6D6006A4C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55B3C12B2D3AF6D3006A4C52 /* Project object */;
+}
