@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		55C596572D3D890500F3B201 /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = 55C596562D3D890500F3B201 /* HotKey */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		55B3C1452D3AF6D6006A4C52 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +33,22 @@
 		55B3C14E2D3AF6D6006A4C52 /* GrammaringerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrammaringerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		55B3C1652D3D4DED006A4C52 /* Exceptions for "Grammaringer" folder in "Grammaringer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 55B3C1322D3AF6D4006A4C52 /* Grammaringer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		55B3C1352D3AF6D4006A4C52 /* Grammaringer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				55B3C1652D3D4DED006A4C52 /* Exceptions for "Grammaringer" folder in "Grammaringer" target */,
+			);
 			path = Grammaringer;
 			sourceTree = "<group>";
 		};
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C596572D3D890500F3B201 /* HotKey in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,7 @@
 				55B3C1352D3AF6D4006A4C52 /* Grammaringer */,
 				55B3C1472D3AF6D6006A4C52 /* GrammaringerTests */,
 				55B3C1512D3AF6D6006A4C52 /* GrammaringerUITests */,
+				55C596552D3D890500F3B201 /* Frameworks */,
 				55B3C1342D3AF6D4006A4C52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +109,13 @@
 				55B3C14E2D3AF6D6006A4C52 /* GrammaringerUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		55C596552D3D890500F3B201 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +138,7 @@
 			);
 			name = Grammaringer;
 			packageProductDependencies = (
+				55C596562D3D890500F3B201 /* HotKey */,
 			);
 			productName = Grammaringer;
 			productReference = 55B3C1332D3AF6D4006A4C52 /* Grammaringer.app */;
@@ -195,6 +222,9 @@
 			);
 			mainGroup = 55B3C12A2D3AF6D3006A4C52;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				55C596522D3D849500F3B201 /* XCRemoteSwiftPackageReference "HotKey" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 55B3C1342D3AF6D4006A4C52 /* Products */;
 			projectDirPath = "";
@@ -399,6 +429,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Grammaringer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Grammaringer/Info.plist;
+				INFOPLIST_KEY_LSUIElement = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -424,6 +456,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Grammaringer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Grammaringer/Info.plist;
+				INFOPLIST_KEY_LSUIElement = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -541,6 +575,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55C596522D3D849500F3B201 /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55C596562D3D890500F3B201 /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55C596522D3D849500F3B201 /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 55B3C12B2D3AF6D3006A4C52 /* Project object */;
 }
